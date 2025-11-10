@@ -5,7 +5,7 @@ A set of Java projects implementing various classical ciphers, including encrypt
 This project implements the Caesar cipher, a simple substitution cipher that shifts letters by a fixed distance. It also includes a statistical method to crack the cipher using English letter frequencies and chi-squared analysis.
 ## Features
 - Encrypt and decrypt text using a Caesar shift
--Automatically crack Caesar cipher using letter frequency analysis
+- Automatically crack Caesar cipher using letter frequency analysis
 
 ## How to Use
 1.Compile the program:
@@ -25,13 +25,15 @@ Example:
 
 
  $ java Caesar 3 "The ships hung in the sky."
+ 
 Wkh vklsv kxqj lq wkh vnb.
 
 $ java Brutus "Wkh vklsv kxqj lq wkh vnb."
+
 The ships hung in the sky.
 
 ## Substitution Ciphers
-- Description:
+Description:
 This project implements several substitution ciphers in an object-oriented design. It includes:
 1. Substitution – abstract class implementing the Cipher interface for character-by-character encryption/decryption.
 
@@ -58,14 +60,17 @@ javac Substitution.java MonoAlphaSubstitution.java Caesar.java Vigenere.java
 2. Run MonoAlphaSubstitution:
 
 java MonoAlphaSubstitution encrypt <key> "text"
+
 java MonoAlphaSubstitution decrypt <key> "text"
 
 3. Run Caesar:
 
    java Caesar encrypt <shift> "text"
+   
    java Caesar decrypt <shift> "text"
 
-4. Run Vigenère:
+5. Run Vigenère:
 
    java Vigenere encrypt <keyword> "text"
+   
    java Vigenere decrypt <keyword> "text"
