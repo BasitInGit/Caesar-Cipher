@@ -1,6 +1,6 @@
 # Cipher Java Projects
 A set of Java projects implementing various classical ciphers, including encryption, decryption, and statistical analysis for cracking.
-## Caesar Cipher
+## 1. Caesar Cipher
 -Description:
 This project implements the Caesar cipher, a simple substitution cipher that shifts letters by a fixed distance. It also includes a statistical method to crack the cipher using English letter frequencies and chi-squared analysis.
 ## Features
@@ -32,7 +32,7 @@ $ java Brutus "Wkh vklsv kxqj lq wkh vnb."
 
 The ships hung in the sky.
 
-## Substitution Ciphers
+## 2. Substitution Ciphers
 Description:
 This project implements several substitution ciphers in an object-oriented design. It includes:
 1. Substitution – abstract class implementing the Cipher interface for character-by-character encryption/decryption.
