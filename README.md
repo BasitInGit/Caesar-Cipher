@@ -8,12 +8,15 @@ This project implements the Caesar cipher, a simple substitution cipher that shi
 -Automatically crack Caesar cipher using letter frequency analysis
 
 ## How to Use
-1.Compile the program: javac Caesar.java Brutus.java
+1.Compile the program:
+javac Caesar.java Brutus.java
 
-2. Run Caesar cipher with a shift: java Caesar <shift> "text to encrypt or decrypt"
+2. Run Caesar cipher with a shift:
+3.  java Caesar <shift> "text to encrypt or decrypt"
 
-3. Crack Caesar cipher without the key: java Brutus "encrypted text"
-Example: $ java Caesar 3 "The ships hung in the sky."
+4. Crack Caesar cipher without the key: java Brutus "encrypted text"
+Example:
+ $ java Caesar 3 "The ships hung in the sky."
 Wkh vklsv kxqj lq wkh vnb.
 
 $ java Brutus "Wkh vklsv kxqj lq wkh vnb."
