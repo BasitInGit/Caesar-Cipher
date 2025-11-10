@@ -1,8 +1,10 @@
 # Cipher Java Projects
 A set of Java projects implementing various classical ciphers, including encryption, decryption, and statistical analysis for cracking.
 ## 1. Caesar Cipher
--Description:
+- Description:
 This project implements the Caesar cipher, a simple substitution cipher that shifts letters by a fixed distance. It also includes a statistical method to crack the cipher using English letter frequencies and chi-squared analysis.
+
+- Files: casear0.java, brutus.java, MonoAlphsubstitution.java
 ## Features
 - Encrypt and decrypt text using a Caesar shift
 - Automatically crack Caesar cipher using letter frequency analysis
@@ -42,7 +44,7 @@ This project implements several substitution ciphers in an object-oriented desig
 3. Caesar – special case of monoalphabetical substitution with a fixed shift.
 
 4. Vigenere – polyalphabetic substitution cipher using a keyword for encryption/decryption.
-
+- Files: caesar.java, substitution.java, monoAlphaSubstitution.java, Vigenere.java
 ## Features
 -Encrypt/decrypt with monoalphabetical substitution
 
@@ -70,6 +72,9 @@ java MonoAlphaSubstitution decrypt <key> "text"
    java Caesar decrypt <shift> "text"
 
 5. Run Vigenère:
+
+## Shared files
+cipher.java
 
    java Vigenere encrypt <keyword> "text"
    
