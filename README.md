@@ -73,9 +73,9 @@ java MonoAlphaSubstitution decrypt <key> "text"
 
 5. Run Vigenère:
 
-## Shared files
-cipher.java
-
-   java Vigenere encrypt <keyword> "text"
+ java Vigenere encrypt <keyword> "text"
    
    java Vigenere decrypt <keyword> "text"
+
+## Shared files
+cipher.java
